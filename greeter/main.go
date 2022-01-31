@@ -1,4 +1,4 @@
-package github.com/ehsanx64/go/greeter
+package greeter
 
 import "fmt"
 
