@@ -1,12 +1,13 @@
 package main
+
 import "fmt"
 
 /*
 ** Create a new struct type for person which hold detail (name and age)
-*/
+ */
 type person struct {
 	name string
-	age int
+	age  int
 }
 
 func NewPerson(name string) *person {

@@ -7,8 +7,8 @@ func main() {
 	fmt.Println("go" + "lang")
 
 	// + adds integers
-	fmt.Println("1 + 1 = ", 1 + 1)
-	fmt.Println("7.0 / 3.0 = ", 7.0 / 3.0)
+	fmt.Println("1 + 1 = ", 1+1)
+	fmt.Println("7.0 / 3.0 = ", 7.0/3.0)
 
 	// Dumping booleans using fmt.Println()
 	fmt.Println(true && false)

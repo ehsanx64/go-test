@@ -1,14 +1,15 @@
 package main
+
 import "fmt"
 
 /*
 ** Go has built-in support for returning multiple return values from a function.
 ** It's useful when returning both results and error codes from functions.
-*/
+ */
 
 /*
 ** Define a function named 'vals' that returns to ints.
-*/
+ */
 func vals() (int, int) {
 	return 3, 7
 }

@@ -35,7 +35,7 @@ func main() {
 	l = s[2:]
 	fmt.Println("sl3:", l)
 
-	t := []string {"g", "h", "i"}
+	t := []string{"g", "h", "i"}
 	fmt.Println("dcl:", t)
 
 	twoD := make([][]int, 3)

@@ -1,11 +1,12 @@
 package main
+
 import "fmt"
 
 func main() {
 	/*
 	** Define an array of ints with 5 elements. As default value for int's is 0.
 	** This array is an array of 5 zero's
-	*/
+	 */
 	var a [5]int
 
 	// Println will dump entire array
@@ -20,7 +21,7 @@ func main() {
 	fmt.Println("len:", len(a))
 
 	// Using braces default values for an array can be specified
-	b := [5]int {1, 2, 3, 4, 5}
+	b := [5]int{1, 2, 3, 4, 5}
 	fmt.Println("dcl:", b)
 
 	// Define a two-dimensional array

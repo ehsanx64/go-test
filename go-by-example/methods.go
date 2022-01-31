@@ -1,4 +1,5 @@
 package main
+
 import "fmt"
 
 type rect struct {
@@ -10,7 +11,7 @@ func (r *rect) area() int {
 }
 
 func (r rect) perim() int {
-	return 2 * r.width + 2 * r.height
+	return 2*r.width + 2*r.height
 }
 
 func main() {

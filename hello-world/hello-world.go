@@ -26,4 +26,3 @@ func main() {
 //	go build -o hello-world.bin hello-world.go
 // Can be run using:
 //	go run hello-world.go
-

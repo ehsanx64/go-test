@@ -1,4 +1,5 @@
 package main
+
 import "fmt"
 
 func main() {
@@ -6,8 +7,8 @@ func main() {
 
 	/*
 	** Using range to sum the numbers in a slice
-	*/
-	nums := []int {2, 3, 4}
+	 */
+	nums := []int{2, 3, 4}
 	sum := 0
 
 	//
@@ -33,7 +34,7 @@ func main() {
 	}
 
 	// range over maps iterates over key/value pairs
-	kvs := map[string]string {"a": "apple", "b": "banana"}
+	kvs := map[string]string{"a": "apple", "b": "banana"}
 	for k, v := range kvs {
 		fmt.Printf("%s => %s\n", k, v)
 	}

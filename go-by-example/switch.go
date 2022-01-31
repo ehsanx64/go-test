@@ -1,4 +1,5 @@
 package main
+
 import (
 	"fmt"
 	"time"
@@ -10,7 +11,7 @@ func main() {
 
 	/*
 	** Basic switch syntax
-	*/
+	 */
 	switch i {
 	case 1:
 		fmt.Println("one")

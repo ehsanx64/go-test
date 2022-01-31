@@ -1,4 +1,5 @@
 package main
+
 import (
 	"fmt"
 	"math"
@@ -22,7 +23,7 @@ func (r rect) area() float64 {
 }
 
 func (r rect) perim() float64 {
-	return 2 * r.width + 2 * r.height
+	return 2*r.width + 2*r.height
 }
 
 func (c circle) area() float64 {
@@ -33,7 +34,7 @@ func (c circle) perim() float64 {
 	return 2 * math.Pi * c.radius
 }
 
-func measure (g geometry) {
+func measure(g geometry) {
 	fmt.Println(g)
 	fmt.Println(g.area())
 	fmt.Println(g.perim())
