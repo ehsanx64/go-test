@@ -2,6 +2,6 @@ package greeter
 
 import "fmt"
 
-func main() {
+func Greet() {
 	fmt.Println("Greeting!")
 }
