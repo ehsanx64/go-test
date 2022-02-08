@@ -1,5 +1,5 @@
-# go-test
-Go programming language tests and samples
+# go
+Go programming language source code
 
 ## TODO
 - gorm
