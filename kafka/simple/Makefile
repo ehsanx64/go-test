@@ -27,6 +27,11 @@ run-consumer:
 
 tidy:
 	go mod tidy -v
+
+# Stop Kafkadrop
+kafdrop-stop:
+	docker stop  kafka-go-kafdrop
+
 # Run Kafkadrop
 kafdrop-run:
 	docker run --name kafka-go-kafdrop --rm -d -p 9000:9000 \
