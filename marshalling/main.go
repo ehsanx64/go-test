@@ -11,6 +11,8 @@ type Person struct {
 	Age          int      `json:"age"`
 	IsProgrammer bool     `json:"is_programmer"`
 	Favorites    []string `json:"favorites"`
+	// fields with - will be omitted from marshalization
+	PrivateField string `json:"-"`
 }
 
 const jsonFile string = "data.json"
@@ -61,6 +63,7 @@ func marshalStruct() []byte {
 		Age:          30,
 		IsProgrammer: true,
 		Favorites:    []string{"go", "js"},
+		PrivateField: "empty",
 	}
 
 	fmt.Println("### struct")
@@ -89,6 +92,7 @@ func unmarshalStruct(jsonData []byte) {
 	fmt.Println("Name: " + p.Name)
 	fmt.Println("Age:", p.Age)
 	fmt.Println("IsProgrammer:", p.IsProgrammer)
+	fmt.Println("PrivateField:", p.PrivateField)
 
 }
 
