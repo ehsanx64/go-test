@@ -1,3 +1,3 @@
-module github.com/ehsanx64/go/greeter
+module github.com/ehsanx64/go-examples/greeter
 
-go 1.16
+go 1.20

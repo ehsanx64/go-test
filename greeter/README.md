@@ -1,3 +1,3 @@
 # Greeter
 
-A dummy module to test private packages.
+A simple module to be published/accessible on GitHub
