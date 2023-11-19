@@ -2,16 +2,21 @@ package general
 
 import (
 	"fmt"
-
 	"strings"
 )
 
-const tableWidth = 18
+const defaultColumnWidth = 15
+
+var columnWidth int = defaultColumnWidth
+
+func SetColumnWidth(width int) {
+	columnWidth = width
+}
 
 func DumpValue(title string, arg any) {
 	var padding strings.Builder
 
-	for i := 0; i < tableWidth-(len(title)+1); i++ {
+	for i := 0; i < columnWidth-(len(title)+1); i++ {
 		padding.WriteString(" ")
 	}
 
@@ -21,7 +26,7 @@ func DumpValue(title string, arg any) {
 func DumpType(title string, arg any) {
 	var padding strings.Builder
 
-	for i := 0; i < tableWidth-(len(title)+1); i++ {
+	for i := 0; i < columnWidth-(len(title)+1); i++ {
 		padding.WriteString(" ")
 	}
 
